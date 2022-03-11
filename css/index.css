@@ -1,13 +1,15 @@
-h1 {
-color : white;
-font-family: verdana;
-font-size: 40px;
+* {
+    font-family: 'Nunito', sans-serif;
 }
-
 .card {
-
-    background-color: azure;
+    color:white;
     margin: 20px;
     padding: 20px;
-    max-width: 50px;
+    max-width: 540px ; 
 }
+
+.button {
+    border-radius: 5px;
+    font-size: 18px;
+}
+

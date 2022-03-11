@@ -2,62 +2,62 @@
     {
             "name":"Y.Shashidhar",
             "Eamil":"Yellenkishashidhar@msitprogram.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image1.jpg",
             "Tag":"FSD"
         }, {
             "name":"prem",
             "Eamil":"sumith@msitprogram.net",
-            "image":"./pics/photo-4.jpg",
+            "image":"../images/image2.jpg",
             "Tag":"DS"
         }, {
             "name":"Shashi",
             "Eamil":"Kavyasri@msitprogram.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image3.jpg",
             "Tag":"FSD"
         }, {
             "name":"Kavya",
             "Eamil":"Yellenkishashidhar@msitprogram.net",
-            "image":"./pics/photo-4.jpg",
+            "image":"../images/image4.jpg",
             "Tag":"DS"
         }, {
             "name":"Shashi",
             "Eamil":"Kavyasri@msitprogram.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image5.jfif",
             "Tag":"FSD"
         }, {
             "name":"Shashi",
             "Eamil":"Kavyasri@msitprogram.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image6.jpg",
             "Tag":"FSD"
         }, {
             "name":"test",
             "Eamil":"pem@msitpogam.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image7.jpg",
             "Tag":"Ac & Mw"
         }, {
             "name":"rahul",
             "Eamil":"rahuk@msitprogram.net",
-            "image":"./pics/photo-1.jpg",
+            "image":"../images/image8.jpg",
             "Tag":"FSD"
         },{
             "name":"rahul kumar",
             "Eamil":"swapneeth@msitprogram.net",
-            "image":"./pics/photo-6.jpg",
+            "image":"../images/image9.jfif",
             "Tag":"AI & ML"
         },{
             "name":"Swapneeth",
             "Eamil":"swapneeth@msitprogram.net",
-            "image":"./pics/photo-6.jpg",
+            "image":"../images/images.jpg",
             "Tag":"AI & ML"
         },{
             "name":"Swapneeth",
             "Eamil":"swapneeth@msitprogram.net",
-            "image":"./pics/photo-6.jpg",
+            "image":"../images/image1.jpg",
             "Tag":"FSD"
         },{
             "name":"Swapneeth",
             "Eamil":"swapneeth@msitprogram.net",
-            "image":"./pics/photo-6.jpg",
+            "image":"../images/image4.jpg",
             "Tag":"FSD"
         } 
         
