@@ -1,135 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>
-        Learners directory page
-    </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <style>
-        div {
-            background-color: aqua;
-            border: 5px;
-        }
-    </style> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learners directory page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" src="https://github.com/necolas/normalize.css/blob/master/normalize.css">
+    <link rel="stylesheet" href="./css/index.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="/css/index.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="/css/index.css"> -->
 </head>
-<body>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h1>Learners directory page</h1>
-      </div>       
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download.jfif" alt="student_image" class="rounded-circle" >
-            <h4>Name :<span><strong>Emma watson</strong></span></h4>
-            <h4>Email :<span><strong>Emma.watson@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (1).jpg" alt="student_image" class="rounded-circle">     
-            <h4>Name :<span><strong>Tapsi</strong></span></h4>
-            <h4>Email :<span><strong>tapsi.pannu@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (2) (1).jpg" alt="student_image" class="rounded-circle">      
-            <h4>Name :<span><strong>Tapsi</strong></span></h4>
-            <h4>Email :<span><strong>tapsi.pannu@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (3) (1).jpg" alt="student_image" class="rounded-circle">      
-            <h4>Name :<span><strong>Urvasi</strong></span></h4>
-            <h4>Email :<span><strong>urvasi.arura@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
+<body onload="display()"style="background-color: #ffe9e3;">
+<div class="container-fluid" >
+    <div class="container-fluid" style="background-color: black; border-radius: 15px;">
+    <div class="row m-4" >
+        <div class="col-2 ">
+            <img class="img-responsive"  src="./images/Logo.jpeg" style="max-width:150px;padding:10px">
         </div>
-        <div class="row">
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (4).jpg" alt="student_image" class="rounded-circle" >
-            <h4>Name :<span><strong>Reshmi</strong></span></h4>
-            <h4>Email :<span><strong>reshmigautam@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (5).jpg" alt="student_image" class="rounded-circle">     
-            <h4>Name :<span><strong>Tapsi</strong></span></h4>
-            <h4>Email :<span><strong>tapsi.pannu@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (7).jpg" alt="student_image" class="rounded-circle">      
-            <h4>Name :<span><strong>Tapsi</strong></span></h4>
-            <h4>Email :<span><strong>tapsi.pannu@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm m-1 container-fluid text-center border">
-            <img src="/images/download (6).jfif" alt="student_image" class="rounded-circle">      
-            <h4>Name :<span><strong>Urvasi</strong></span></h4>
-            <h4>Email :<span><strong>urvasi.arura@gmail.com</strong></span></h4>
-            <div class="row">
-              <div class="col-sm p-1 container-fluid ">
-              <button type="button" class="btn btn-primary">View Details</button>
-              </div>
-              <div class="col-sm p-1  container-fluid ">
-              <button type="button" class="btn btn-primary">Invite</button> 
-              </div>
-            </div>
-          </div>
+        <div class="col-2 ">
+            <!-- Button trigger modal -->
+            <button type="button"  class="btn btn-primary my-5" data-bs-toggle="modal" data-bs-target="#myModal" >
+                Invite
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel" style="color:rgb(240, 72, 30);font-weight:600;">New user invitation</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="watsapp"><strong>Watsapp number :</strong></label>
+                            <input type="text" id="watsapp" name="watsapp" placeholder="Enter here"><br>
+                            <h4 style="text-align: center;color:rgb(218, 4, 4);">OR</h4>
+                            <label for="email"><strong>Email ID :</strong></label>
+                            <input type="text" id="email" name="email" placeholder="Enter here">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+                </div>
+            </div> 
         </div>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="col-4 ">
+            <h1 style="color:rgb(241, 68, 15);margin-top: 45px;font-weight: 1000;">Learners directory page</h1>
+        </div>
+        <div class="col-2 ">
+            <select class="button" name="filter" id="filter" style="margin-top:55px;">
+            <option value="None">Select tag to filter</option>
+            <option value="DS">DS</option>
+            <option value="FSD">FSD</option>
+            <option value="AI & ML">AI & ML</option>
+        </select>
+        </div>
+        <div class="col-2 ">
+            <input class="button" type="search" id="search" name="search" placeholder="Search" style="margin-top: 50px;">
+        </div>
+    </div>
+    </div>
+
+    <div class="row" style="overflow: auto;" id="students">          
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    //selecting all the dom items from document
+    const searchfield = document.querySelector('#search');
+    const filtersearch=document.querySelector('#filter');
+
+    
+    //feteches data from the json file.... and returns a promise using .then to read the promise
+    async function fetchdata(){
+        const search = await fetch('./json/data.json');
+        const data = await search.json();
+        return data;
+    }
+    
+    //displaying the contents to the dispaly (not filtering... static display)
+    function display(){
+        fetchdata().then(response=>{
+       displayData(response)
+             })
+        }
+    async function filtering(searchvalue){ 
+        //when the searchfeild is empty we render all the cards from json file
+        if(searchvalue.length === 0){
+            display();
+        }
+        const search = await fetch('./json/data.json');
+        const data = await search.json();
+       let matches = data.filter(matchdata=>{
+            const regx= new RegExp(`${searchvalue}`,'gi');
+            return matchdata.name.match(regx) || matchdata.bio.match(regx);
+        })
+        displayData(matches);
+        
+    };
+        // helping funciton
+    function displayData(args){
+        let card = document.getElementById('students');
+        card.innerHTML=''    
+        for(let i=0; i<args.length; i++){
+            card.innerHTML+=`
+            <div class="col-4 ">
+            <div class="card col p-2" style="background-color: black;border-radius: 15px;">
+                <div class="row g-0">
+                    <div class="student_image col-md-4">
+                        <img src=${args[i].image} class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                        <h4 class="card-title"><strong>${args[i].name}</strong></h4>
+                        <p class="card-text">${args[i].bio}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>`
+        }
+    }
+    searchfield.addEventListener('input',()=>{
+        filtering(searchfield.value);
+    }); 
+    filtersearch.addEventListener('click',()=>{
+        filtering(filtersearch.value);
+    });
+ </script>
 </body>
-</html>
+</html>                 
+    
+                            
