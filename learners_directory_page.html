@@ -99,7 +99,7 @@
         const data = await search.json();
        let matches = data.filter(matchdata=>{
             const regx= new RegExp(`${searchvalue}`,'gi');
-            return matchdata.name.match(regx) || matchdata.Tag.match(regx);
+            return matchdata.name.match(regx) || matchdata.bio.match(regx);
         })
         displayData(matches);
         

@@ -2,7 +2,7 @@
     "dataofstudents":[
     {   "name":"Y.Shashidhar",
         "Eamil":"Yellenkishashidhar@msitprogram.net",
-        "image":"./pics/photo-1.jpg",
+        "image":"../images/image1.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -17,7 +17,7 @@
 
     {   "name":"prem",
         "Eamil":"sumith@msitprogram.net",
-        "image":"./pics/photo-4.jpg",
+        "image":"../images/image2.jpg",
         "Tag":"DS",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -33,7 +33,7 @@
     
     {   "name":"shashi",
         "Eamil":"Yellenkishashidhar@msitprogram.net",
-        "image":"./pics/photo-4.jpg",
+        "image":"../images/image3.jpg",
         "Tag":"DS",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -48,7 +48,7 @@
     
     {   "name":"Kavya",
         "Eamil":"Kirshna@msitprogram.net",
-        "image":"./pics/photo-1.jpg",
+        "image":"../images/image4.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -63,7 +63,7 @@
     
     {   "name":"shashi",
         "Eamil":"Yellenkishashidhar@msitprogram.net",
-        "image":"./pics/photo-4.jpg",
+        "image":"../images/image5.jpg",
         "Tag":"DS",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -78,7 +78,7 @@
     
     {   "name":"Shashi",
         "Eamil":"Yellenkishashidhar@msitprogram.net",
-        "image":"./pics/photo-4.jpg",
+        "image":"../images/image6jpg",
         "Tag":"DS",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -93,7 +93,7 @@
     
     {   "name":"test",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/image7.jpg",
         "Tag":"AI & ML",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -108,7 +108,7 @@
     
     {  "name":"rahul ",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/image8.jpg",
         "Tag":"AI & ML",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -123,7 +123,7 @@
     
     {   "name":"rahul kumar",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/image9.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -138,7 +138,7 @@
     
     {   "name":"Swapneeth",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/images.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -152,7 +152,7 @@
     },
     {   "name":"Swapneeth",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/image1.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
@@ -166,7 +166,7 @@
     },
     {   "name":"Swapneeth",
         "Eamil":"swapneeth@msitprogram.net",
-        "image":"./pics/photo-6.jpg",
+        "image":"../images/image4.jpg",
         "Tag":"FSD",
         "Reason":" I want to get good job",
         "course":"Javascript",
