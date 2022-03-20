@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learners progress page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" src="https://github.com/necolas/normalize.css/blob/master/normalize.css">
+    <link rel="stylesheet" href="./css/index.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        table, th, tr {
+            border: 2px solid black;
+        }
+        th {
+            background-color: rgb(202, 125, 74);
+            font-weight: 600;
+        }
+        td, th {
+            padding:4px;
+        }
+    </style>
+</head>
+<body onload="loadStudentDetails()"> 
+    <div class="container pt-5">
+        <div class="row" style="margin:2px;" >
+            <div class="col-md-3 col-12" id="firstrow">
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7 col-12"style="margin-top:80px;">
+                <canvas id="myChart" aria-label="chart" role="img" ></canvas>
+                <div id="buttons" class="pt-3 justify-content-center d-flex flex-row" style="text-align:center;">  
+                    <button type="button" id="button" class="line btn btn-primary mx-3"> Line </button>
+                    <button type="button" id="button" class="dougnut btn btn-warning mx-3"> Doughnut </button>
+                    <button type="button" id="softskillsButton" class="softskills btn btn-danger"> Softskills </button>
+                </div>
+            </div>
+    </div> 
+    <div class="row pt-5">
+        <h2 style="text-align: center;color:rgb(250, 45, 9);font-weight: 800;">Progress table</h2>
+        <table id="tableDescription" style="margin:5px;border-collapse:collapse">
+            <tr>
+                <th>Course</th>
+                <th>Marks attained</th>
+                <th>Remarks</th>
+                <th>Status</th>
+                <th>Progress</th>
+            </tr>
+           
+        </table>   
+    <!-- <script src="./progress.js"></script> -->
+    <script src="./script/progress.js"></script>
+    </body>
+</html>
