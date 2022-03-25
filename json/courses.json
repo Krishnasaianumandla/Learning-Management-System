@@ -1,5 +1,20 @@
 [
     {
+<<<<<<< HEAD
+        "courseName":"Introduction to IT workshop",
+        "modules":["Introduction to Information technology","Intoduction to FSD","Introduction to CSS","Introduction to JavaScript","Introduction to CSS","Introduction to JavaScript","Introduction to Backend", "Introduction to Validations"] ,
+        "tasks":{
+            "Introduction to Information technology":["Project description","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Intoduction to FSD":["Project description","Indian language typing","Prepare a report"],
+            "Introduction to CSS":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Introduction to JavaScript":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Introduction to Backend":["Project description","Personal Branding","Visual communication design","LinkedIn"],
+            "Introduction to Validations":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"Intoduction to FSD",
+=======
         "courseName":"IT Workshop",
         "modules":["Virtual chalkboard","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
         "tasks":{
@@ -12,6 +27,7 @@
     },
     {
         "courseName":"Computer Science Principles and Programming",
+>>>>>>> 09953033e937945805d71e9276856aee7f1240a9
         "modules":["Python code dissection","Python code writing","Battleships project"] ,
         "tasks":{
             "Python code dissection":["Project overview","GitHub & VS code setup","Python workspace","Code dissection","Code review","Data types, operators, variables","Function calls","Comparision operators and if conditions","Importing libraries"],

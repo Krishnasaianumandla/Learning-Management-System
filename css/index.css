@@ -1,4 +1,5 @@
-* {
+.container::after{
+}* {
     font-family: 'Nunito', sans-serif;
 }
 body {
