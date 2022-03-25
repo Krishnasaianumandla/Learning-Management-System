@@ -13,7 +13,8 @@
             "Softskills":["Reading", "Writing","Presentation","Free-speech"],
             "softskillsMarks":[75,80,65,85],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
-            "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"]
+            "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
+            "path":[]
         }, {
             "name":"Shresta",
             "email":"jenniferg@gmail.com",
