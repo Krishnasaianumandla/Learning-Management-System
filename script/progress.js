@@ -1,7 +1,6 @@
 function progress(args){
-console.log(args)
-localStorage.setItem("selectedStudent",args);
-location.href="../learners_progress_page.html";
+    localStorage.setItem("selectedStudent",args);
+    location.href="../learners_progress_page.html";
 }
 
 async function Fetch(){
@@ -10,20 +9,21 @@ async function Fetch(){
     return students;
 }
 
-// console.log(firstRow);
 function loadStudentDetails(){
-Fetch().then(res=>{
-       for(let i=0; i<res.length; i++){
-           if(res[i].name === localStorage.getItem("selectedStudent")){
-               chartData(res[i]);
-               CardDisplay(res[i]);
-               table(res[i]);             
+    Fetch().then(res=>{
+        for (const key in res) { 
+               if(res[key].name === localStorage.getItem("selectedStudent")){
+                   document.querySelector('#studentImage').innerHTML=`<img class="rounded-circle ms-4 me-2"
+               style="width:60px;height:60px;" src="${res[key].image}">`;
+                   document.querySelector('#studentName').innerHTML+=res[key].name+'\'s progress';
+                   chartData(res[key]);
+                   chartData2(res[key]);
+                   CardDisplay(res[key]);
            }
-       }
-})
-}
+        }   
+    })
+    }
 
-//graphs code snipet
 function chartData(obj){
     var mychart = document.getElementById('myChart').getContext('2d');
     const labels = obj.Technical;
@@ -36,30 +36,63 @@ function chartData(obj){
             label:"Student's progress",
             data,
             backgroundColor:["#58508d","#ff6361","#bc5090"
-        ],
-            //borderColor:['white'], //used for bordercolor
-            pointBackgroundColor:"#33539e",
-            
-            }],
-    
-    }
-    });
+              ],
+            pointBackgroundColor:"#33539e",           
+            }],                                
+         }
+     });
     let line = document.querySelector('.line');
     let doughnut = document.querySelector('.dougnut');
+    let bar = document.querySelector('.bar');
     line.addEventListener('click',()=>{
     result.config.type="line";
     result.update();
     });
+    bar.addEventListener('click',()=>{
+        result.config.type="bar";
+        result.update();
+        });
     doughnut.addEventListener('click',()=>{
     result.config.type="doughnut";
     result.update();
+    });
+}
+
+function chartData2(obj){
+    var mychart2 = document.getElementById('myChart2').getContext('2d');
+    const labels = obj.Softskills;
+    const data = obj.softskillsMarks;
+    let result2 = new Chart(mychart2,{
+    type:'bar',
+    data:{
+        labels,
+        datasets:[{
+            label:"Student's progress",
+            data,
+            backgroundColor:["#58508d","#ff6361","#bc5090"
+              ],
+            pointBackgroundColor:"#33539e",           
+            }],                                
+         }
+     });
+    let line2 = document.querySelector('.line2');
+    let doughnut2 = document.querySelector('.dougnut2');
+    console.log(line2,'-------',doughnut2)
+    line2.addEventListener('click',()=>{
+    result2.config.type="line";
+    result2.update();
+    });
+    doughnut2.addEventListener('click',()=>{
+    result2.config.type="doughnut";
+    result2.update();
     })
 }
 
-//this code snippet used to display the person details in card formate
-let firstRow = document.querySelector('#firstrow');
+const stu = document.querySelector('#firstrow');
+console.log(stu,"=======");
 function CardDisplay(obj){
-firstRow.innerHTML= `            
+    console.log(obj);
+stu.innerHTML+= `            
                <div class="card" style="background-color:black;color:white;width: 15rem;">
                    <img class="img-fluid rounder-start" src="${obj.image}" alt="Card image cap">
                    <div class="card-body" >
@@ -69,23 +102,5 @@ firstRow.innerHTML= `
                    </div>
                 </div>
                `
-
 }
-//used to display the technical enrolled courses
-const Technical = document.querySelector('#tableDescription')
-function table(obj){
-    for(let i=0; i<obj.Technical.length;i++ ){
-    
-          tableDescription.innerHTML+=`
-          <tr>
-          <td>${obj.Technical[i]}</td>
-          <td>${obj.marks[i]}</td>
-          <td>${obj.Remarks[i]}</td>
-          <td>${obj.status[i]}</td>
-          <td>${obj.Remarks[i]}</td>
-          </tr>
-          `
-    }
-}
-
 

@@ -2,7 +2,8 @@
     font-family: 'Nunito', sans-serif;
 }
 body {
-    background-color: #ffe9e3;  
+    /* background-color: #ffe9e3;   */
+    background-color: white;
 }
 
 .studentCard {
@@ -13,8 +14,27 @@ body {
     padding:1rem;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 1rem;   
 }
+.tpath {
+    position:relative;
+    height:auto;
+    width: 400px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding-left:9%;
+    align-items:center;
+}
+.tgraph {
+    position:relative;
+    height:500px;
+    width: 414px;
+    padding-top:75px;
+    overflow: hidden;
+    justify-content: center;
+}
+
 .studentCard .box{
       position:relative;
       height:460px;
