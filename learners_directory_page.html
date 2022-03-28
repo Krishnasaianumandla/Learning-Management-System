@@ -58,15 +58,15 @@
                         </div>
                      </li>          
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex" style="width:414px">
                         <!-- Filter             -->
-                        <select id="filter" class="me-2 border rounded" style="width: 200px;"  placeholder="Select options to filter" >
-                            <option value=".*">Filter</option>
+                        <select id="filter" class="me-2 border rounded" style="width: 175px;"  placeholder="Select options to filter" >
+                            <option value=".*">Filter by tag</option>
                             <option value="DS">DS</option>
                             <option value="FSD">FSD</option>
                             <option value="AI ">AI & ML</option>
                         </select>
-                        <input class="form-control me-2" type="search"  placeholder="Search" id="search" aria-label="Search">
+                        <input class="form-control me-2" type="search" style="width:185px;"  placeholder="Search by name" id="search" aria-label="Search">
                 </form>
             </div>
       </nav>
@@ -133,8 +133,9 @@
                     <img src="${args[i].image}" alt="Card image cap">
                    </div>
                    <div class="card-body" >
-                     <p class="card-text"><strong>Name: </strong>${args[i].name}</p>
-                     <p class="card-text"><strong>TAG: </strong> ${args[i].bio}</p>
+                     <h4 class="card-text">${args[i].name}</h4>
+                     <h6 class="card-text">${args[i].email}</h6>
+                     <h6 class="card-text"> ${args[i].bio}</h6>
                      <button  onclick="progress('${args[i].name}')">View details</button>                  
                    </div>
             </div>`
@@ -148,5 +149,6 @@
     });
  </script>
  <script src="./script/progress.js"></script>
+<script src="./script/Main.js"></script>
 </body>
 </html>
