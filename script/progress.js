@@ -3,7 +3,7 @@ function progress(args){
     location.href="../learners_progress_page.html";
 }
 
-const name = localStorage.getItem("selectedStudent").split(",")[0];
+let specialization='';
 // const tag = localStorage.getItem("selectedStudent").split(",")[1].trim();
 
 document.addEventListener('DOMContentLoaded',()=>{
@@ -16,28 +16,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
     async function fetchCourse(){
         // console.log('entry to fetchCourse');
-        const data1= await fetch("../json/courses.json");
+        const data1= await fetch("../json/learningpath.json");
         const courses= await data1.json();
         // console.log('this is fetchCourse',courses);
         return courses;
     
     }
-    fetchCourse().then(course=>{
-        var i=0; 
-        for(const key in course){          
-            i+=1;
-            // console.log(i,'--------');
-            // console.log('this is fetchCourse function',course);
-            document.querySelector('#ThreeLevelTechnicalBox').innerHTML+=`
-            <h4 data-bs-toggle="modal" data-bs-target="#exampleModal">${course[key].courseName}</h4>`;
-            
-            // console.log(document.querySelector('#ThreeLevelTechnicalBox').innerHTML);
-        }
-    });
-
     Fetch().then(res=>{
         for (const key in res) { 
                 if(res[key].name === localStorage.getItem("selectedStudent")){
+                    specialization=res[key].course;
                     document.querySelector('#studentImage').innerHTML=`<img class="rounded-circle ms-4 me-2"
                 style="width:60px;height:60px;" src="${res[key].image}">`;
                     document.querySelector('#studentName').innerHTML+=res[key].name+'\'s progress';
@@ -47,6 +35,24 @@ document.addEventListener('DOMContentLoaded',()=>{
             }
         }   
     });
+    fetchCourse().then(course=>{
+        // var i=0; 
+        console.log(specialization,'--------');
+        for(const key in course[0][specialization]){          
+            // i+=1;
+            // console.log(i,'--------');
+            console.log('this is fetchCourse function',course[0][specialization][key]);
+            document.querySelector('#ThreeLevelTechnicalBox').innerHTML+=`
+            <h4 data-bs-toggle="modal" data-bs-target="#exampleModal">${course[0][specialization][key]}</h4>`;
+        }
+        for(const key in course[1]['softskills']){
+            console.log('this is fetchCourse function',course[1]['softskills'][key]);
+            document.querySelector('#ThreeLevelSoftskillsBox').innerHTML+=`
+            <h4 data-bs-toggle="modal" data-bs-target="#exampleModal">${course[1]['softskills'][key]}</h4>`;
+        }
+    });
+
+    
     
     function chartData(obj){
         var mychart = document.getElementById('myChart').getContext('2d');
@@ -121,11 +127,15 @@ let learningpath = $.getJSON({ url: "../json/courses.json", async: false, });
 learningpath = JSON.parse(learningpath.responseText);
 console.log(learningpath);
 // let dataArray = loadCharacters[0];
-
-document.addEventListener('click',selected=>{
+const techEvent= document.querySelector('#ThreeLevelTechnicalBox');
+console.log(techEvent.innerHTML,'******');
+techEvent.addEventListener('click',modal);
+const softskillsEvent=document.querySelector('#ThreeLevelSoftskillsBox');
+console.log(softskillsEvent.innerHTML,'******');
+softskillsEvent.addEventListener('click',modal);
+    function modal(selected){   
     let course=selected.target.textContent;
     document.querySelector('#exampleModalLabel').innerHTML=`${course}`;
-    // console.log(learningpath);
     var i=0; 
         for(const key in learningpath){ 
             if(learningpath[key].courseName===course){                    
@@ -136,19 +146,19 @@ document.addEventListener('click',selected=>{
                 const module=learningpath[key]['modules'][c];
                 console.log(module);
                 accordion.innerHTML+=`
-    <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-heading${i}">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse${i}" aria-expanded="false" aria-controls="flush-collapse${i}">
-            <i>${learningpath[key]['modules'][c]}<i class="bi bi-check-circle"></i></i>
-      </button>
-    </h2>
-    <div id="flush-collapse${i}" class="accordion-collapse collapse" aria-labelledby="flush-heading${i}" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-         <ol id="flush-collapse-ol${i}">
-         </ol>
-      </div>
-    </div>
-  </div>`;
+                                                    <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-heading${i}">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse${i}" aria-expanded="false" aria-controls="flush-collapse${i}">
+                                                            <i>${learningpath[key]['modules'][c]}<i class="bi bi-check-circle"></i></i>
+                                                    </button>
+                                                    </h2>
+                                                    <div id="flush-collapse${i}" class="accordion-collapse collapse" aria-labelledby="flush-heading${i}" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <ol id="flush-collapse-ol${i}">
+                                                        </ol>
+                                                    </div>
+                                                    </div>
+                                                </div>`;
                 for(const task in learningpath[key].tasks[module]){
                     const v ='flush-collapse-ol'+i;
                     console.log(v);
@@ -156,17 +166,14 @@ document.addEventListener('click',selected=>{
                     listElement=document.getElementById(v);
                     // listElement.innerHTML=``;
                     listElement.innerHTML+=`
-                    <li style="padding:7px">${learningpath[key].tasks[module][task]}</li>
+                    <div><span><i class="material-icons">done</i></span><li>${learningpath[key].tasks[module][task]}</li></div>
                     `;
                 }
-}
+            }
         }
     }
-});
+}
 
 
-
-const ThreeLeveltechnicalBoxEl = document.querySelector('#ThreeLevelTechnicalBox');
-const ThreeLevelSoftskillsBoxEl = document.querySelector('#ThreeLevelSoftskillsBox');
 
 

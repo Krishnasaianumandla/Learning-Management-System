@@ -105,19 +105,16 @@ body {
     height:100%;
     /* overflow-y: scroll; */
 }
-#overflow{
+/* #overflow{
     height:550px;
-}
+} */
 .box1:last-child{
     padding:0;
     margin:0;
     
 }
 .box1 h4:nth-last-child(1){
-   
-    margin:0;
-    
-    
+    margin:0;   
 }
 .box1 h4 span{
     color: green;
@@ -166,13 +163,12 @@ body {
     display: none;
 } */
 
-ol li{
+/* ol li{
     display: flex;
     align-items: center;
     justify-content: space-between;
     line-height: .5rem;
-
-}
+} */
 
 #dot{
     color:green;

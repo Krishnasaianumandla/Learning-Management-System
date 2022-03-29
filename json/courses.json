@@ -62,5 +62,49 @@
             "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
             "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
                 }
+    },
+    {
+        "courseName":"Data Science",
+        "modules":["Virtual chalkboard","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
+        "tasks":{
+            "Virtual chalkboard":["Project description","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Evaluate input methods":["Project description","Indian language typing","Prepare a report"],
+            "Create open-source datasets":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"LSRW",
+        "modules":["Virtual chalkboard**","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
+        "tasks":{
+            "Virtual chalkboard**":["Project description******","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Evaluate input methods":["Project description","Indian language typing","Prepare a report"],
+            "Create open-source datasets":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"LSRW1",
+        "modules":["Virtual chalkboard****","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
+        "tasks":{
+            "Virtual chalkboard****":["Project description*****","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Evaluate input methods":["Project description","Indian language typing","Prepare a report"],
+            "Create open-source datasets":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"Professional Communication",
+        "modules":["Virtual chalkboard","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
+        "tasks":{
+            "Virtual chalkboard":["Project description","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Evaluate input methods":["Project description","Indian language typing","Prepare a report"],
+            "Create open-source datasets":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
     }
 ]
