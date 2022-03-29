@@ -166,7 +166,10 @@ softskillsEvent.addEventListener('click',modal);
                     listElement=document.getElementById(v);
                     // listElement.innerHTML=``;
                     listElement.innerHTML+=`
-                    <div><span><i class="material-icons">done</i></span><li>${learningpath[key].tasks[module][task]}</li></div>
+                    <div class="row">
+                    <div class="col-1"><i class="material-icons" style="color:green;">done</i></div>
+                    <div class="col-11"><li style="list-style-type:none;">${learningpath[key].tasks[module][task]}</li></div>
+                    </div>
                     `;
                 }
             }
