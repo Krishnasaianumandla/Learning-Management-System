@@ -1,18 +1,43 @@
 [
     {
-        "FSD":["Introduction to IT workshop", "Intoduction to FSD", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations","EcommereceProject","React Project"],
-        "DS":["Introduction to IT workshop", "Intoduction to DS", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "AI":["Introduction to AI basics", "Intoduction to AI", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "AWS":["Introduction to AWS", "Intoduction to AWS", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "AZURE":["Introduction to AZURE", "Intoduction to AZURE", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "DJANGO":["Introduction to DJANGO", "Intoduction to DJANGO", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "PYTHON":["Introduction to PYTHON", "Intoduction to PYTHON", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"],
-        "JAVA":["Introduction to PYTHON", "Intoduction to JAVA", "Introduction to CSS","Introduction to JavaScript","Introduction to Backend","Introduction to Validations"]
+        "FSD":["IT Workshop",
+             "Computer Science Principles and Programming",
+             "Introduction to Data Science",
+             "Algorithms and Data Structures in Java",
+             "Computer Systems",
+             "Full Stack Development"],
+        "DS":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Data Science"],
+        "AI":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Artificial Intellegence"],
+        "ML":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Machine Learning"],
+        "CyberSecurity":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Cyber Security"]
+
+
         
     },
+    
     {
-        "LSRW":["Writing task", "speaking", "quiz"],
-        "LSRW1":["Group Discussion", "Speaking task"],
-        "Prof Communication":["presenations", "free speech"]
+        "Softskills":["LSRW","LSRW1","Professional Communication Skills"]
     }
 ]
+
+
