@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\RegistrationForm.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>New registration</title>
     <style>
         textarea{
@@ -14,166 +18,143 @@
        
     </style>
 </head>
-<body style="background: #dbd8e3;">
-       <div class="container d-flex flex-row justify-content-center pt-5" style="width:70%" >
+<body style="background: #f9f7fc;">
+       <div class="container d-flex flex-row justify-content-center pt-5" style="width:62%" >
            <form action="#">
-            <h1 class="d-flex flex-row justify-content-center py-2"><strong>New Learner Registration</strong></h1>
+            <h1 class="d-flex flex-row justify-content-center py-2"><span style="color:Black; font-family: 'Gill Sans'"><storng>New Learner Registration</storng></span></h1>
 
                <div class="form-group">
-                <h2 class="py-3"><em>Basic Details</em></h2>
-                   <div class="row">
-                    <div class="col-sm-4">
-                        <label for="FirstName"><strong>First name</strong><span style="color:red; font-weight: bold;">*</span></label>
-                        <input type="text" id="FirstName"class="form-control FirstName">
+                <h2 class="py-3" style="font-family:'Gill Sans'"><strong>Basic Details</strong></h2>
+                <div class = "row">
+                    <div class ="col-sm-6">
+                        <label class = "form label" for = "firstname">
+                            <span style="color:Black; font-family:'Gill Sans';">
+                                <strong>First Name</strong></span></label>
+                        <input type ="text" id = "firstname" class = "form-control"><br>
+
                     </div>
-                   <div class="col-sm-4">
-                        <label for="LastName"><strong>Last name</strong><span style="color:red; font-weight: bold;">*</span></label>
-                        <input type="text" id="LastName"  class="form-control LastName">
-                </div>
-                <div class="col-sm-4">
-                    <label for="LastName"><strong>Choose your profile photo</strong><span style="color:red; font-weight: bold;">*</span></label>
-                    <input type="file" id="LastName"  class="form-control LastName">
-            </div>
-                </div>
-                </div>
-               <div class="form-group">
-                   <div class="row">
-                       <div class="col-sm-12 py-3">
-                            <label for=""><strong>Short Bio</strong><span style="color:red; font-weight: bold;">*</span></label>
-                            <textarea name="textarea" class="form-control" id="textarea" row="3"></textarea>
+            
+                    <div class ="col-sm-6">
+                        <label class = "form label" for = "lastname">
+                            <span style="color:Black; font-family:'Gill Sans';">
+                                <strong>Last Name</strong></span></label>
+                        <input type ="text" id = "lastname" class = "form-control"><br>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><span style = "color:black; font-family: 'Gill Sans';">
+                            <strong>Short Bio</strong></span></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+                    </div>
+
+
+                    <div class="col-8">
+                        <label for="formFile" class="form-label">
+                            <span style="color:Black; font-family:'Gill Sans';">
+                                <strong>Upload Image File</strong></span></label>
+                        <input class="form-control" type = "file" id="formFile"><br>
+                    </div>
+
+                    <div class="tag-con1">
+                       <span style="font-family:'Gill Sans'"><strong>Tags</strong></span>
+                        <br />
+                        <br />
+                        <div class="tag-con2">
+                        <input />
                         </div>
-                    </div>
-                </div>
+                        
+                        </div>
+                    
+
+                
                 <div class="form-grop">
-                    <h2 class="py-3"><em>Social Handles</em></h2>
+                    <h2 class="py-3"><span style="font-family:'Gill Sans'"><strong>Social Handles</strong></span></h2>
                     <div class="row">
-                        <div class="col">
-                            <label for="Linkedin"><strong>Linkedin</strong><span style="color:red; font-weight: bold;">*</span></label>
+                        <div class="col-sm-6">
+                            <label for="Linkedin"><span style="font-family:'Gill Sans';"><strong>LinkedIn</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
 
-                        <div class="col">
-                            <label for="Githib"><strong>Github</strong><span style="color:red; font-weight: bold;">*</span></label>
+                        <div class="col-sm-6">
+                            <label for="Githib"><span style="font-family:'Gill Sans';"><strong>GitHub</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col py-3">
-                            <label for="Instagram"><strong>Instagram</strong></label>
+                        <div class="col-sm-6 py-3">
+                            <label for="Instagram"><span style="font-family:'Gill Sans'"><strong>Instagram</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
 
                         <div class="col py-3">
-                            <label for="Facebook"><strong>Facebook</strong></label>
+                            <label for="Facebook"><span style="font-family:'Gill Sans'"><strong>Facebook</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <h2 class="py-3"><em>Academics</em></h2>
+                    <h2 class="py-3" style="font-family:'Gill Sans'"><strong>Academics</strong></h2>
                     <div class="row">
-                        <div class="col">
-                            <label for="School"><strong>School</strong><span style="color:red; font-weight: bold;">*</span></label>
+                        <div class="col-sm-6">
+                            <label for="School"><span style="font-family: 'Gill Sans';"><strong>School</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
 
-                        <div class="col">
-                            <label for="Board"><strong>Board</strong><span style="color:red; font-weight: bold;">*</span></label>
+                        <div class="col-sm-6">
+                            <label for="Board"><span style="font-family: 'Gill Sans';"><strong>Board</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col py-3">
-                            <label for="Graduation"><strong>Graduation</strong><span style="color:red; font-weight: bold;">*</span></label>
+                        <div class="col-sm-6 py-3">
+                            <label for="Graduation"><span style="font-family: 'Gill Sans';"><strong>Graduation college/university</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
-
-                        <div class="col py-3">
-                            <label for="university"><strong>Graduation University</strong><span style="color:red; font-weight: bold;">*</span></label>
-                            <input type="text" id="" class="form-control">
-                        </div>
+ 
                     </div>
                     <div class="row">
-                        <div class="col">
-                            <label for="Post Graduation"><strong>Post Graduation</strong></label>
+                        <div class="col-sm-6">
+                            <label for="Post Graduation"><span style="font-family: 'Gill Sans';"><strong>Post Graduation college/university
+                            </strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
 
-                        <div class="col">
-                            <label for="university"><strong>Post Graduation University</strong></label>
-                            <input type="text" id="" class="form-control">
-                        </div>
+        
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <h2 class="py-3"><em>Work Experience</em></h2>
+                    <h2 class="py-3" style="font-family: 'Gill Sans';"><strong>Previous Work Experience</strong></h2>
                     <div class="row">
                         <div class="col-sm-6 ">
-                            <label for="Position"><strong>Position</strong></label>
+                            <label for="Position"><span style="font-family: 'Gill Sans';"><strong>Position</strong></span></label>
                             <input type="text" id="" class="form-control">
                         </div>
                         <div class="col-sm-6 ">
-                            <label for="Organization"><strong>Organization</strong></label>
+                            <label for="Organization"><span style="font-family: 'Gill Sans';"><strong>Organization</strong></span></label>
                             <input type="text" id="Organization" class="form-control">
                         </div>
                         <div class="col-sm-6 py-3">
-                            <label for="From"><strong>From:</strong></label>
+                            <label for="From"><span style="font-family: 'Gill Sans';"><strong>From:</strong></span></label>
                             <input type="date" id="From" class="form-control">
                         </div><div class="col-sm-6 py-3">
-                            <label for="From"><strong>To:</strong></label>
+                            <label for="From"><span style="font-family: 'Gill Sans';"><strong>To:</strong></span> </label>
                             <input type="date" id="From" class="form-control">
                         </div>
                     </div>
                 </div>
-                <div class="form-group py-2" data-toggle="buttons">
-                    <h2 class="py-3"><em>Tags</em></h2>
-                    <div class="row">
-                        <div class="col">
-                            <div class="btn-group-toggle">
-                                <label class="btn btn-danger">
-                                    <input type="checkbox"  autocomplete="off"> Full Stack Web Devlopment
-                                </label> 
-                                <label class="btn btn-danger">
-                                    <input type="checkbox" autocomplete="off"> Airtifical Intellegince
-                                </label> 
-                                <label class="btn btn-danger">
-                                    <input type="checkbox" autocomplete="off"> Machine learning
-                                </label> 
-                        
-                                <label class="btn btn-danger m-1">
-                                    <input type="checkbox" autocomplete="off"> Airtifical Intellegince and Machine learning
-                                </label> 
-                                <label class="btn btn-danger">
-                                    <input type="checkbox" autocomplete="off"> Data Science
-                                </label> 
-                                <label class="btn btn-danger ">
-                                    <input type="checkbox" autocomplete="off"> Cloud technologies
-                                </label> <label class="btn btn-danger ">
-                                    <input type="checkbox" autocomplete="off"> Cyber security
-                                </label> <label class="btn btn-danger ">
-                                    <input type="checkbox" autocomplete="off"> Hadoop
-                                </label> <label class="btn btn-danger ">
-                                    <input type="checkbox" autocomplete="off"> Ethical Hacking
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-primary btn.block px-5 py-2"><strong>SUBMIT</strong></button>
-
-                    </div>
-
-                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Submit</button>
+                    
+                  </div>
 
                 
 
            </form>
-       </div>
-    
+       </div><br>
+
+
+    <script src="script\Tags_registrationform.js"> </script>
 </body>
 </html>
 <!-- testing form -->
