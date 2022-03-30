@@ -15,7 +15,7 @@
         "modules":["Python code dissection","Python code writing","Battleships project"] ,
         "tasks":{
             "Python code dissection":["Project overview","GitHub & VS code setup","Python workspace","Code dissection","Code review","Data types, operators, variables","Function calls","Comparision operators and if conditions","Importing libraries"],
-            "Python Code Writing":["Introduction","Handling errors","Function definition","Function call stack"],
+            "Python code writing":["Introduction","Handling errors","Function definition","Function call stack"],
             "Battleships project":["Introduction","Introduction to lists","2D lists","List methods","Data representation"]     
                 }
     },
@@ -103,7 +103,7 @@
     },
 
     {
-        "courseName":"CyberSecurity",
+        "courseName":"Cyber Security",
         "modules":["Usable Security","Software Security","Cryptography","Hardware Security"] ,
         "tasks":{
             "Usable Security":["Fundamentals of Human-Computer Interaction","Design methodology & prototyping","Evaluation & testing","Strategies for Secure Interaction Design","Usable Authentication: authentication mechanisms, biometrics, two-factor authentication"," Usable Privacy: privacy settings, personal data sharing"],           
@@ -128,11 +128,11 @@
 
     {
         "courseName":"LSRW1",
-        "modules":["Reading_Level2","Listening_2","Task"] ,
+        "modules":["Reading_Level_2","Listening_2","Task"] ,
         "tasks":{
             "Reading_Level_2":["Passage1","Quiz_1","Passage2","Quiz_2","Passage3","Quiz_3","Passage4","Quiz_4"],           
             "Listening_2":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
-            "Task":["Descriptive_eassy Writing","Augmentative_eassy Writing","Persuasive_eassy Writing","Informative speech_speaking","Persuasive speech__speaking"]
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
         }
                 
     },
