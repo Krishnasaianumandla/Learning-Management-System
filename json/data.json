@@ -10,8 +10,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","FSD"],
             "marks":[40,0,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,90],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,90,93,87],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"module":{"Virtual chalkboard":{"status":"completed"},
@@ -27,6 +27,8 @@
                                 "Full Stack Development":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"status":"completed"}}
         }, {
             "name":"Shresta",
@@ -39,8 +41,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","DS"],
             "marks":[85,90,30,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[85,36,0],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[85,36,0,0,0],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -57,6 +59,8 @@
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
                                                                              "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                             "LSRW2":{"status":"incomplete"},
+                                             "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
         }, {
             "name":"Kalyani",
@@ -69,8 +73,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","AI"],
             "marks":[87,33,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,81],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,90,96,81],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -83,6 +87,8 @@
                                 "Artificial Intellegence":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"module":{"Email writing":{"task":"Rules for email writing","status":"pending"},
                                                                                                                        "Effective Communication":{"status":"incomplete"}},"status":"pending"}}
         }, {
@@ -96,8 +102,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","FSD"],
             "marks":[40,0,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,90],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,90,82,90],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"module":{"Virtual chalkboard":{"status":"completed"},
@@ -113,6 +119,8 @@
                                 "Full Stack Development":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"status":"completed"}}
         }, {
             "name":"Sulochana",
@@ -125,8 +133,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","CyberSecurity"],
             "marks":[89,40,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,65],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,84,86,65],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -139,6 +147,8 @@
                                 "Cyber Security":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"module":{"Email writing":{"task":"Rules for email writing","status":"pending"},
                                                                                                                        "Effective Communication":{"status":"incomplete"}},"status":"pending"}}
         }, {
@@ -152,8 +162,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","AI"],
             "marks":[88,46,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,65],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,82,86,65],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -166,6 +176,8 @@
                                 "Artificial Intellegence":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"module":{"Email writing":{"status":"completed"},
                                                                                                                      "Effective Communication":{"status":"pending","task":"Awareness of Communication Styles"}},"status":"pending"}}
         }, {
@@ -179,8 +191,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","AI"],
             "marks":[82,43,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[85,91,65],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[85,91,86,83,65],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -193,6 +205,8 @@
                                 "Artificial Intellegence":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"module":{"Email writing":{"status":"completed"},
                                                                                                                      "Effective Communication":{"status":"pending","task":"Awareness of Communication Styles"}},"status":"pending"}}
         }, {
@@ -206,8 +220,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","DS"],
             "marks":[81,93,44,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,62,0],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,62,0,0,0],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -224,6 +238,8 @@
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
                                                                              "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                             "LSRW2":{"status":"incomplete"},
+                                             "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
         },{
             "name":"Emma Watson",
@@ -236,8 +252,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","FSD"],
             "marks":[38,0,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,90],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,87,82,90],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"module":{"Virtual chalkboard":{"status":"completed"},
@@ -253,6 +269,9 @@
                                 "Full Stack Development":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
+
                                              "Professional Communication Skills":{"status":"completed"}}
         },{
             "name":"Sharanya",
@@ -265,8 +284,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","FSD"],
             "marks":[86,89,59,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,76,0],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,76,0,0,0],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -283,6 +302,8 @@
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
                                                                              "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                             "LSRW2":{"status":"incomplete"},
+                                             "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
         },{
             "name":"Pranavi",
@@ -295,8 +316,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","AI"],
             "marks":[97,54,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,98,62],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,98,86,80,62],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"status":"completed"},
@@ -309,6 +330,8 @@
                                 "Artificial Intellegence":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"module":{"Email writing":{"status":"completed"},
                                                                                                                      "Effective Communication":{"status":"pending","task":"Awareness of Communication Styles"}},"status":"pending"}}
         },{
@@ -322,8 +345,8 @@
             "Technical":["IT Workshop", "CSPP","IDS","ADS","CS","FSD"],
             "marks":[64,0,0,0,0,0],
             "status":["Completed","Completed","Incomplete","Incomplete","Completed","Pending","Pending","Incomplete"],
-            "Softskills":["LSRW","LSRW1","PCS"],
-            "softskillsMarks":[82,89,92],
+            "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","PCS"],
+            "softskillsMarks":[82,89,89,87,92],
             "softskillsRemarks":["Needs improvement","Good improvement","Poor","Good"],
             "softskillsStatus":["Incomplete","Completed","Incomplete","Completed"],
             "tprogress":{"IT Workshop":{"module":{"Virtual chalkboard":{"status":"completed"},
@@ -339,6 +362,8 @@
                                 "Full Stack Development":{"status":"incomplete"}},
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"status":"completed"},
+                                             "LSRW2":{"status":"completed"},
+                                             "LSRW3":{"status":"completed"},
                                              "Professional Communication Skills":{"status":"completed"}}
         }   
  ]

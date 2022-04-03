@@ -30,9 +30,9 @@ body {
 }
 .tgraph {
     position:relative;
-    height:500px;
-    width: 350px;
-    padding-top:10%;
+    height:480px;
+    width: 650px;
+    padding-top:5%;
     overflow: hidden;
     /* border:1px solid black; */
 }

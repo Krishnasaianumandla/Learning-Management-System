@@ -81,18 +81,27 @@ document.addEventListener('DOMContentLoaded',()=>{
         var result = new Chart(mychart,{
         type:'bar',
         data:{
+            title:"Progress",
             labels,
             datasets:[{
-                label:"Student's progress",
+                label:"progress",
                 data,
-                backgroundColor:["#58508d","#ff6361","#bc5090"
+                backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
                   ],
                 pointBackgroundColor:"#33539e",           
                 }],                                
-             }
-         });
+             },
+            options: {
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Progress'
+                    },
+                    legend: {
+                        display: false,
+                     } } } 
+        });
         let line = document.querySelector('.line');
-        let doughnut = document.querySelector('.dougnut');
         let bar = document.querySelector('.bar');
         line.addEventListener('click',()=>{
         result.config.type="line";
@@ -102,44 +111,54 @@ document.addEventListener('DOMContentLoaded',()=>{
             result.config.type="bar";
             result.update();
             });
-        doughnut.addEventListener('click',()=>{
-        result.config.type="doughnut";
-        result.update();
-        });
+        // let doughnut = document.querySelector('.dougnut');
+        // doughnut.addEventListener('click',()=>{
+        // result.config.type="doughnut";
+        // result.update();
+        // });
     }
     //This code block displays softskills courses marks chart
     function chartData2(obj){
         var mychart2 = document.getElementById('myChart2').getContext('2d');
         const labels = obj.Softskills;
         const data = obj.softskillsMarks;
-        let result2 = new Chart(mychart2,{
-        type:'bar',
-        data:{
-            labels,
-            datasets:[{
-                label:"Student's progress",
-                data,
-                backgroundColor:["#58508d","#ff6361","#bc5090"
-                  ],
-                pointBackgroundColor:"#33539e",           
-                }],                                
-             }
-         });
+        let result = new Chart(mychart2,{
+            type:'bar',
+            data:{
+                labels,
+                datasets:[{
+                    label:"progress",
+                    data,
+                    backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
+                      ],
+                    pointBackgroundColor:"#33539e",           
+                    }],                                
+                 },
+            options: {
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Progress'
+                    },
+                    legend: {
+                        display: false,
+                        } } } 
+        });
         let line2 = document.querySelector('.line2');
-        let doughnut2 = document.querySelector('.dougnut2');
+        // let doughnut2 = document.querySelector('.dougnut2');
         let bar2 = document.querySelector('.bar2');
         line2.addEventListener('click',()=>{
-            result2.config.type="line";
-            result2.update();
+            result.config.type="line";
+            result.update();
             });
         bar2.addEventListener('click',()=>{
-        result2.config.type="bar";
-        result2.update();
+        result.config.type="bar";
+        result.update();
         });
-        doughnut2.addEventListener('click',()=>{
-        result2.config.type="doughnut";
-        result2.update();
-        });
+        // doughnut2.addEventListener('click',()=>{
+        // result.config.type="doughnut";
+        // result.update();
+        // });
     }
 });
 
