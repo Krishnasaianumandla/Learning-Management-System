@@ -138,6 +138,31 @@
     },
 
     {
+        "courseName":"LSRW2",
+        "modules":["Reading_Level_3","Listening_3","Task"] ,
+        "tasks":{
+            "Reading_Level_3":["Passage1","Quiz_1","Passage2","Quiz_2","Passage3","Quiz_3","Passage4","Quiz_4"],           
+            "Listening_3":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
+        }
+                
+    },
+
+
+    {
+        "courseName":"LSRW3",
+        "modules":["Reading_Level_4","Listening_4","Task"] ,
+        "tasks":{
+            "Reading_Level_4":["Passage_4.1","Quiz_4.1","Passage_4.2","Quiz_4.2","Passage_4.3","Quiz_3","Passage_4.4","Quiz_4.4"],           
+            "Listening_4":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
+        }
+                
+    },
+
+
+
+    {
         "courseName":"Professional Communication Skills",
         "modules":["Email writing","Effective Communication"] ,
         "tasks":{
