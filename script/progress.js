@@ -92,10 +92,36 @@ document.addEventListener('DOMContentLoaded',()=>{
                 }],                                
              },
             options: {
+                scales:{
+                    x:{
+                        title:{
+                            display: true,
+                            text:"Courses"
+                        }
+                    },
+                    y:{
+                        title:{
+                            display: true,
+                            text:"Marks Secured"
+                        }
+                        
+        
+                    }
+                },
                 plugins: {
+                    
                     title: {
                         display: true,
-                        text: 'Progress'
+                        color:"black",
+                        text: 'Progress',
+                        padding: {
+                            
+                            bottom: 30
+                        },
+                        font: {
+                            size: 28
+                        }
+                       
                     },
                     legend: {
                         display: false,
@@ -135,10 +161,36 @@ document.addEventListener('DOMContentLoaded',()=>{
                     }],                                
                  },
             options: {
+                scales:{
+                    x:{
+                        title:{
+                            display: true,
+                            text:"Courses",
+                            color:"black",
+                        }
+                    },
+                    y:{
+                        title:{
+                            display: true,
+                            text:"Marks Secured"
+                        }
+                        
+        
+                    }
+                },
                 plugins: {
                     title: {
                         display: true,
-                        text: 'Progress'
+                        text: 'Progress',
+                        color:"black",
+                        padding: {
+                            top:15,
+                            bottom: 10
+                        },
+                        font: {
+                           
+                            size: 28
+                        }
                     },
                     legend: {
                         display: false,
