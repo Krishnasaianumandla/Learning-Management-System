@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         var result = new Chart(mychart,{
         type:'bar',
         data:{
+            title:"Progress",
             labels,
             datasets:[{
                 label:"progress",
@@ -92,6 +93,10 @@ document.addEventListener('DOMContentLoaded',()=>{
              },
             options: {
                 plugins: {
+                    title: {
+                        display: true,
+                        text: 'Progress'
+                    },
                     legend: {
                         display: false,
                      } } } 
@@ -106,11 +111,11 @@ document.addEventListener('DOMContentLoaded',()=>{
             result.config.type="bar";
             result.update();
             });
-        let doughnut = document.querySelector('.dougnut');
-        doughnut.addEventListener('click',()=>{
-        result.config.type="doughnut";
-        result.update();
-        });
+        // let doughnut = document.querySelector('.dougnut');
+        // doughnut.addEventListener('click',()=>{
+        // result.config.type="doughnut";
+        // result.update();
+        // });
     }
     //This code block displays softskills courses marks chart
     function chartData2(obj){
@@ -131,12 +136,16 @@ document.addEventListener('DOMContentLoaded',()=>{
                  },
             options: {
                 plugins: {
+                    title: {
+                        display: true,
+                        text: 'Progress'
+                    },
                     legend: {
                         display: false,
                         } } } 
         });
         let line2 = document.querySelector('.line2');
-        let doughnut2 = document.querySelector('.dougnut2');
+        // let doughnut2 = document.querySelector('.dougnut2');
         let bar2 = document.querySelector('.bar2');
         line2.addEventListener('click',()=>{
             result.config.type="line";
@@ -146,10 +155,10 @@ document.addEventListener('DOMContentLoaded',()=>{
         result.config.type="bar";
         result.update();
         });
-        doughnut2.addEventListener('click',()=>{
-        result.config.type="doughnut";
-        result.update();
-        });
+        // doughnut2.addEventListener('click',()=>{
+        // result.config.type="doughnut";
+        // result.update();
+        // });
     }
 });
 
