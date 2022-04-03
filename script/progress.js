@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                             bottom: 30
                         },
                         font: {
+                            family: 'nunito',
                             size: 28
                         }
                        
@@ -188,7 +189,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                             bottom: 10
                         },
                         font: {
-                           
+                            family: 'nunito',
                             size: 28
                         }
                     },
