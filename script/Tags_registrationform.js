@@ -53,27 +53,28 @@ addTags();
 input.focus();
 
 
-function add_more_field(){
-   
-    html='<div class="row"  id="remove">\
+function add_more_field(e){
+    
+   var html='<div class="row"  id="remove">\
     <div class="col-sm-6 ">\
-        <label for="Position"><span style="font-family: "Gill Sans";">Position</span></label>\
+        <label for="Position"><span style="font-family: "Gill Sans";">Position</span><span id="red">*</span></label>\
         <input type="text1" name="position1" id="position" class="form-control">\
     </div>\
     <div class="col-sm-6 ">\
-        <label for="Organization"><span style="font-family: "Gill Sans";">Organization</span></label>\
+        <label for="Organization"><span style="font-family: "Gill Sans";">Organization</span><span id="red">*</span></label>\
         <input type="text1" name="organization1"   id="Organization" class="form-control">\
     </div>\
     <div class="col-sm-6 py-3">\
-        <label for="From"><span style="font-family: "Gill Sans";">From:</span></label>\
+        <label for="From"><span style="font-family: "Gill Sans";">From:</span><span id="red">*</span></label>\
         <input type="date" name="from1" id="From" class="form-control">\
     </div><div class="col-sm-6 py-3">\
-        <label for="From"><span style="font-family:"Gill Sans";">To:</span> </label>\
+        <label for="From"><span style="font-family:"Gill Sans";">To:</span><span id="red">*</span> </label>\
         <input type="date" name="to1" id="To" class="form-control">\
     </div>\
 </div>'
 
 var form = document.getElementById("form3")
+
 form.innerHTML+=html;
 
 }
