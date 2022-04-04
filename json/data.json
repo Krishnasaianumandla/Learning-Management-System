@@ -58,7 +58,7 @@
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
-                                                                             "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                                                             "Task":{"status":"pending","task":"Informative speech_speaking"}},"status":"pending"},
                                              "LSRW2":{"status":"incomplete"},
                                              "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
@@ -237,7 +237,7 @@
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
-                                                                             "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                                                             "Task":{"status":"pending","task":"Informative speech_speaking"}},"status":"pending"},
                                              "LSRW2":{"status":"incomplete"},
                                              "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
@@ -301,7 +301,7 @@
             "softskillsprogress":{"LSRW":{"status":"completed"},
                                              "LSRW1":{"module":{"Reading_Level_2":{"status":"completed"},
                                                                              "Listening_2":{"status":"completed"},
-                                                                             "Task":{"status":"incomplete","task":"Informative speech_speaking"}},"status":"pending"},
+                                                                             "Task":{"status":"pending","task":"Informative speech_speaking"}},"status":"pending"},
                                              "LSRW2":{"status":"incomplete"},
                                              "LSRW3":{"status":"incomplete"},
                                              "Professional Communication Skills":{"status":"incomplete"}}
