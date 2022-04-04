@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             if(technicalProgress[courseName].status==='pending'){
                 tcolor='4px solid orange';}
             if(technicalProgress[courseName].status==='incomplete'){ 
-                tcolor='4px solid red';}
+                tcolor='4px solid #808080';}
             techbox.innerHTML+=`
             <h4 data-bs-toggle="modal" style="border-left:${tcolor};cursor:pointer;padding:0.7rem 0.5rem;background-color:antiquewhite;" data-bs-target="#exampleModal">${courseName}</h4>`;
         }
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 scolor='4px solid orange';
             }
             if(softskillsProgress[courseName].status==='incomplete'){ 
-                scolor='4px solid red';}
+                scolor='4px solid #808080';}
             console.log('this is fetchCourse function^&*%',courseName);
             softbox.innerHTML+=`
             <h4 data-bs-toggle="modal" style="border-left:${scolor};cursor:pointer;padding:0.7rem 0.5rem;background-color:antiquewhite;" data-bs-target="#exampleModal">${courseName}</h4>`;

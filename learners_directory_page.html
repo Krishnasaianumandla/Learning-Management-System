@@ -61,7 +61,8 @@
                 <form class="d-flex" style="width:340px;">
                         <!-- Filter             -->
                         <select id="filter" class="me-2 border rounded" style="width: 175px;"  placeholder="Select options to filter" >
-                            <option value=".*">Filter by tag</option>
+                            <option value="" disabled selected>Filter by tag</option>
+                            <option value=".*">All</option>
                             <option value="DS">DS</option>
                             <option value="FSD">FSD</option>
                             <option value="AI">AI </option>
@@ -143,6 +144,7 @@
         }
     }
     searchfield.addEventListener('input',()=>{
+        console.log(searchfield);
         searchBar(searchfield.value);
     }); 
     filtersearch.addEventListener('click',()=>{
