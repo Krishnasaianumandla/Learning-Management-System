@@ -53,9 +53,9 @@ addTags();
 input.focus();
 
 
-function add_more_field(){
-   
-    html='<div class="row"  id="remove">\
+function add_more_field(e){
+    
+   var html='<div class="row"  id="remove">\
     <div class="col-sm-6 ">\
         <label for="Position"><span style="font-family: "Gill Sans";">Position</span></label>\
         <input type="text1" name="position1" id="position" class="form-control">\
@@ -74,6 +74,7 @@ function add_more_field(){
 </div>'
 
 var form = document.getElementById("form3")
+
 form.innerHTML+=html;
 
 }
