@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
                   ],
                 pointBackgroundColor:"#33539e",
-                barThickness:45          
+                barThickness:30         
                 }],                                
              },
             options: {
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                     backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
                       ],
                     pointBackgroundColor:"#33539e",
-                    barThickness:45             
+                    barThickness:30             
                     }],                                
                  },
             options: {
