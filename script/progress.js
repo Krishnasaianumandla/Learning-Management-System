@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded',()=>{
                 data,
                 backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
                   ],
-                pointBackgroundColor:"#33539e",           
+                pointBackgroundColor:"#33539e",
+                barThickness:45          
                 }],                                
              },
             options: {
@@ -96,7 +97,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                     x:{
                         title:{
                             display: true,
-                            text:"Courses"
+                            text:"Courses",
                         }
                     },
                     y:{
@@ -158,7 +159,8 @@ document.addEventListener('DOMContentLoaded',()=>{
                     data,
                     backgroundColor:["#58508d","#ff6361","#bc5090","#00818a", "#f6c667"
                       ],
-                    pointBackgroundColor:"#33539e",           
+                    pointBackgroundColor:"#33539e",
+                    barThickness:45             
                     }],                                
                  },
             options: {
