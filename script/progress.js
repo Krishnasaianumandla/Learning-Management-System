@@ -98,47 +98,45 @@ document.addEventListener('DOMContentLoaded',()=>{
                         title:{
                             display: true,
                             text:"Courses",
+                            color:"black"
                         }
                     },
                     y:{
                         title:{
                             display: true,
-                            text:"Marks Secured"
-                        }
-                        
+                            text:"Marks Secured",
+                            color:"black"
+                        }                       
         
                     }
                 },
-                plugins: {
-                    
+                plugins: {               
                     title: {
                         display: true,
                         color:"black",
                         text: 'Progress',
-                        padding: {
-                            
+                        padding: {                           
                             bottom: 30
                         },
                         font: {
                             family: 'nunito',
                             size: 28
-                        }
-                       
+                        }                      
                     },
                     legend: {
                         display: false,
                      } } } 
         });
-        let line = document.querySelector('.line');
-        let bar = document.querySelector('.bar');
-        line.addEventListener('click',()=>{
-        result.config.type="line";
-        result.update();
-        });
-        bar.addEventListener('click',()=>{
-            result.config.type="bar";
-            result.update();
-            });
+        // let line = document.querySelector('.line');
+        // let bar = document.querySelector('.bar');
+        // line.addEventListener('click',()=>{
+        // result.config.type="line";
+        // result.update();
+        // });
+        // bar.addEventListener('click',()=>{
+        //     result.config.type="bar";
+        //     result.update();
+        //     });
         // let doughnut = document.querySelector('.dougnut');
         // doughnut.addEventListener('click',()=>{
         // result.config.type="doughnut";
@@ -175,10 +173,9 @@ document.addEventListener('DOMContentLoaded',()=>{
                     y:{
                         title:{
                             display: true,
-                            text:"Marks Secured"
-                        }
-                        
-        
+                            text:"Marks Secured",
+                            color:"black"
+                        }                             
                     }
                 },
                 plugins: {
@@ -199,17 +196,17 @@ document.addEventListener('DOMContentLoaded',()=>{
                         display: false,
                         } } } 
         });
-        let line2 = document.querySelector('.line2');
+        // let line2 = document.querySelector('.line2');
         // let doughnut2 = document.querySelector('.dougnut2');
-        let bar2 = document.querySelector('.bar2');
-        line2.addEventListener('click',()=>{
-            result.config.type="line";
-            result.update();
-            });
-        bar2.addEventListener('click',()=>{
-        result.config.type="bar";
-        result.update();
-        });
+        // let bar2 = document.querySelector('.bar2');
+        // line2.addEventListener('click',()=>{
+        //     result.config.type="line";
+        //     result.update();
+        //     });
+        // bar2.addEventListener('click',()=>{
+        // result.config.type="bar";
+        // result.update();
+        // });
         // doughnut2.addEventListener('click',()=>{
         // result.config.type="doughnut";
         // result.update();
