@@ -145,26 +145,26 @@ preview.innerHTML=`
 // Addblocks
 
 
-let count=0;
+let count=1;
 function developeblock(e){
    document.getElementById('exp').innerHTML+=
    `<div class="row" id="counter${count}">
-    <h5 class="pt-3">Work Experience ${++count}</h5>
+    <h3 class="pt-3">Work Experience ${++count}</h3>
 
                 <div class="col-sm-6">
-                    <label>Position</label>
+                    <label>Position<span>*</span></label>
                     <input type="text" id="" class="form-control">
                 </div>
                 <div class="col-sm-6">
-                    <label>Organization</label>
+                    <label>Organization<span>*</span></label>
                     <input type="text" id="Organization" class="form-control">
                 </div>
                 <div class="col-sm-6 py-3">
-                    <label>From:</label>
+                    <label>From:<span>*</span></label>
                     <input type="date" id="From" class="form-control">
                 </div>
                 <div class="col-sm-6 py-3">
-                    <label>To:</label>
+                    <label>To:<span>*</span></label>
                     <input type="date" id="From" class="form-control">
                 </div>
                 
@@ -179,3 +179,39 @@ function removeblock(){
 
 
 // tags
+
+
+function changetab(){
+var sel = document.querySelector('#nav-Acadamic-Details-tab')
+bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function previoustab(){
+    var sel = document.querySelector('#nav-personal-Details-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function nexttab(){
+    var sel = document.querySelector('#nav-Social-Handles-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function previoustab1(){
+    var sel = document.querySelector('#nav-Acadamic-Details-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function nexttab1(){
+    var sel = document.querySelector('#nav-Work-Experience-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function previoustab2(){
+    var sel = document.querySelector('#nav-Social-Handles-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function nexttab2(){
+    var sel = document.querySelector('#nav-Work-submit-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+function previoustab3(){
+    var sel = document.querySelector('#nav-Work-Experience-tab')
+    bootstrap.Tab.getOrCreateInstance(sel).show()
+}
+
+
