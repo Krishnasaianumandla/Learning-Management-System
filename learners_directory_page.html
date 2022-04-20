@@ -26,37 +26,7 @@
                         <button type="button"  class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#myModal" >
                                 New learner invitation
                         </button>
-                          <!-- Modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h2 class="modal-title" id="modalLabel" >Learner invitation</h2>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body" id="modalBody">
-                                        <form class="p-4">
-                                            <div class="form-group row">
-                                              <label for="staticEmail" class="col-sm-6 col-form-label">Whatsapp number :</label>
-                                              <div class="col-sm-6">
-                                                <input type="text"  class="form-control" id="whatsappNumber" >
-                                              </div>
-                                            </div>
-                                            <h5 class="text-center mt-1" style="color:red">or</h5>
-                                            <div class="form-group row">
-                                              <label for="inputPassword" class="col-sm-6 col-form-label">Email ID :</label>
-                                              <div class="col-sm-6">
-                                                <input type="text" class="form-control" id="emailID" placeholder="">
-                                              </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer" id="modalFooter">
-                                        <button type="button" class="btn btn-primary">Send</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                         
                      </li>          
                 </ul>
                 <form class="d-flex" style="width:340px;">
@@ -73,7 +43,37 @@
                 </form>
             </div>
       </nav>
-
+ <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalLabel" >Learner invitation</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <form class="p-4">
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-6 col-form-label">Whatsapp number :</label>
+                        <div class="col-sm-6">
+                        <input type="text"  class="form-control" id="whatsappNumber" >
+                        </div>
+                    </div>
+                    <h5 class="text-center mt-1" style="color:red">or</h5>
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-6 col-form-label">Email ID :</label>
+                        <div class="col-sm-6">
+                        <input type="text" class="form-control" id="emailID" placeholder="">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer" id="modalFooter">
+                <a href="./new_user_registration.html" target="_blank"  type="button" class="btn btn-primary">Send</a>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="studentCard"  id="students" >          
     </div>
  

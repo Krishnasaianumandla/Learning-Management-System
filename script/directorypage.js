@@ -75,5 +75,3 @@
  filtersearch.addEventListener('click',()=>{
      filtering(filtersearch.value);
  });
-
- 
