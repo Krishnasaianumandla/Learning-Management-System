@@ -212,6 +212,7 @@ function nexttab2(){
 function previoustab3(){
     var sel = document.querySelector('#nav-Work-Experience-tab')
     bootstrap.Tab.getOrCreateInstance(sel).show()
+
 }
 
 

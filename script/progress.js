@@ -1,7 +1,12 @@
+// let testdata = $.getJSON({ url: "../json/data.json", async: false, });
+// testdata = JSON.parse(testdata.responseText);
+
 function progress(args){
     localStorage.setItem("selectedStudent",args);
     location.href="../learners_progress_page.html";
 }
+
+
 
 let specialization='';
 let technicalProgress='';
@@ -337,8 +342,21 @@ function modal(selected){
             }
         }
     }
+    
 }
 
 
 
+// module.exports=testProgress()
+/**
+ * // testing code snippet for jest frame work
+const testProgress =()=>{
+    let tempArray=[]
+    for(let i=0; i<testdata.length; i++){
+        tempArray.push(testdata[i].name)
+    }
+let answer = tempArray.includes(localStorage.getItem("selectedStudent").split(",")[0])   
+    return answer
+}
+ */
 
