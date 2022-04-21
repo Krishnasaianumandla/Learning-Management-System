@@ -6,7 +6,7 @@
  
 
  //feteches data from the json file.... and returns a promise using .then to read the promise
-export  async function fetchdata(){
+ async function fetchdata(){
      const search = await fetch('./json/data.json');
      const data = await search.json();
      return data;
@@ -49,7 +49,7 @@ export  async function fetchdata(){
      displayData(matches);
  }
      // helping funciton
-   export  function displayData(args){
+   function displayData(args){
      let card = document.getElementById('students');
      card.innerHTML=''    
      for(let i=0; i<args.length; i++){         
