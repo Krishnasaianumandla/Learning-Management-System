@@ -2,7 +2,7 @@
     {
             "name":"Aishwarya Rai",
             "email":"aishwaryarai@gmail.com",
-            "image":"../images/image1.jpg",
+            "image":"images/image1.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning FSD",
             "Reason":" I want to get good job",
             "course":"FSD",
