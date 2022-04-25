@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.log('in DOMContentLoaded function','*%^^*')
     //Asynchronous function to fetch json data from data.json
     async function Fetch(){
-        const data = await fetch("../json/data.json");
+        const data = await fetch("json/data.json");
         const students = await data.json();
         // console.log('this is Course');
         return students;
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     //Asynchronous function to fetch json data from learningpath.json
     async function fetchCourse(){
         // console.log('entry to fetchCourse');
-        const data1= await fetch("../json/learningpath.json");
+        const data1= await fetch("json/learningpath.json");
         const courses= await data1.json();
         // console.log('this is fetchCourse',courses);
         return courses;   
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
 });
 
-let learningpath = $.getJSON({ url: "../json/courses.json", async: false, });
+let learningpath = $.getJSON({ url: "json/courses.json", async: false, });
 learningpath = JSON.parse(learningpath.responseText);
 
 const techEvent= document.querySelector('#ThreeLevelTechnicalBox');
