@@ -33,7 +33,7 @@
         }, {
             "name":"Shresta",
             "email":"jenniferg@gmail.com",
-            "image":"./image2.jpg",
+            "image":"images/image2.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning DS",
             "Reason":" I want to get good job",
             "course":"DS",
@@ -65,7 +65,7 @@
         }, {
             "name":"Kalyani",
             "email":"kalyani.m@gmail.com",
-            "image":"image3.jpg",
+            "image":"images/image3.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning AI",
             "Reason":" I want to get good job",
             "course":"AI",
