@@ -62,7 +62,7 @@ export  async function fetchdata(){
                   <h4 class="card-text">${args[i].name}</h4>
                   <h6 class="card-text">${args[i].email}</h6>
                   <h6 class="card-text"> ${args[i].bio}</h6>
-                  <a href="learners_progress_page.html" target="_blank" ><button class="btn btn-primary" onclick="progress('${args[i].name}')">View details</button></a>              
+                  <button  onclick="progress('${args[i].name}')">View details</button>                  
                 </div>
          </div>`
      }
