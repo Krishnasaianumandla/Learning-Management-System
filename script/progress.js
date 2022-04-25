@@ -3,6 +3,7 @@
 
 function progress(args){
     localStorage.setItem("selectedStudent",args);
+    console.log('clicked on view details and in progress page','*&^%$')
 }
 
 
@@ -13,6 +14,7 @@ let tindex=0;
 let softskillsProgress='';
 //Event listener to load content
 document.addEventListener('DOMContentLoaded',()=>{
+    console.log('in DOMContentLoaded function','*%^^*')
     //Asynchronous function to fetch json data from data.json
     async function Fetch(){
         const data = await fetch("../json/data.json");
