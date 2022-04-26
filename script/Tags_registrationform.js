@@ -52,33 +52,3 @@ document.addEventListener('click', (e) => {
 
 input.focus();
 
-let count=0;
-function developeblock(e){
-   document.getElementById('exp').innerHTML+=
-   `<div class="row" id="counter${count}">
-    <h5 class="pt-3">Work Experience ${++count}</h5>
-
-                <div class="col-sm-6">
-                    <label>Position<span>*</span></label>
-                    <input type="text" id="" class="form-control">
-                </div>
-                <div class="col-sm-6">
-                    <label>Organization<span>*</span></label>
-                    <input type="text" id="Organization" class="form-control">
-                </div>
-                <div class="col-sm-6 py-3">
-                    <label>From:<span>*</span></label>
-                    <input type="date" id="From" class="form-control">
-                </div>
-                <div class="col-sm-6 py-3">
-                    <label>To:<span>*</span></label>
-                    <input type="date" id="From" class="form-control">
-                </div>
-                
-     </div>`
-        }
-        console.log(count)
-function removeblock(){
-    count--;
-    document.getElementById(`counter${count}`).remove()
-}
